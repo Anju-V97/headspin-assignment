@@ -1,0 +1,8 @@
+StrgIn=input("Enter the string:")
+line=StrgIn.split('.')
+string=[]
+for word in line:
+    string.insert(0,word)
+
+print("reversed string:" )
+print(".".join(string))

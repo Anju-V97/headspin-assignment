@@ -1,0 +1,8 @@
+N=int(input("enter the limit :"))
+sum=0
+flag=1
+for i in range(1 ,  N+1) :
+    sum = sum + flag**2 /  flag**3
+    flag = flag + 2
+
+print("sum of the series :" , sum)
